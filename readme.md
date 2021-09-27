@@ -60,10 +60,10 @@ kubectl create -f auth.yml
 ## Destroy the infrastructure
 
 ### Destroy cluster resources
-    ```
+    
     cd eks_cluster
     terraform destroy
     cd ../eks_vpc
     terraform destroy
-    ```
+    
     # assignment2
