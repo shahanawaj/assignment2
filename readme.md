@@ -32,6 +32,7 @@ export AWS_DEFAULT_REGION=us-east-1
     terraform output
 
    *** copy the output and paste into following file ***
+   
     eks_cluster/terrafrom.tfstate 
 
     Note: this step is manual for time being...this can be automated using `terraform_remote_state`
