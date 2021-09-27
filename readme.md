@@ -37,7 +37,7 @@ export AWS_DEFAULT_REGION=us-east-1
     Note: this step is manual for time being...this can be automated using `terraform_remote_state`
 
 ### Create cluster resources
-    cd eks_clusyer              
+    cd eks_cluster              
     terraform init 
     terraform apply
 
