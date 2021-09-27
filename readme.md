@@ -1,4 +1,4 @@
-# Chapter Instructions
+# Assignment Instructions
 
 ## Prerequisites
 
