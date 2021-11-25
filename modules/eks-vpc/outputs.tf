@@ -15,6 +15,6 @@ output "eks_nat_ips" {
 }
 
 
-output "vpc_name" {
-  value = aws_vpc.eks_vpc.name
+output "vpc_arn" {
+  value = aws_vpc.eks_vpc.arn
 }
