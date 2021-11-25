@@ -11,5 +11,5 @@ output "public_subnet_ids" {
 }
 
 output "vpc_name" {
-  value = module.vpc.cluster_name
+  value = module.vpc.vpc_name
 }
