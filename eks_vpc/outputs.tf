@@ -10,6 +10,6 @@ output "public_subnet_ids" {
   value = module.vpc.eks_public_subnet_ids
 }
 
-output "vpc_arn" {
-  value = module.vpc.vpc_arn
+output "vpc_route_table_id" {
+  value = module.vpc.vpc_route_table_id
 }
