@@ -15,6 +15,6 @@ output "eks_nat_ips" {
 }
 
 
-output "vpc_route_table_id" {
-  value = aws_vpc.eks_vpc.route_table_id
+output "vpc_cidr_block" {
+  value = aws_vpc.eks_vpc.cidr_block
 }
