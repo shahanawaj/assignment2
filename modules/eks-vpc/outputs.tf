@@ -13,8 +13,3 @@ output "eks_public_subnet_ids" {
 output "eks_nat_ips" {
   value = aws_eip.eks_nat_ips.*.public_ip
 }
-
-
-output "vpc_cidr_block" {
-  value = aws_vpc.eks_vpc.cidr_block
-}

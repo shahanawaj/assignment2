@@ -10,6 +10,7 @@ output "public_subnet_ids" {
   value = module.vpc.eks_public_subnet_ids
 }
 
-output "vpc_cidr" {
-  value = module.vpc.vpc_cidr_block
+output "nat_ips" {
+  value = module.vpc.eks_nat_ips
 }
+
