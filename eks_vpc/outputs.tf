@@ -13,4 +13,3 @@ output "public_subnet_ids" {
 output "nat_ips" {
   value = module.vpc.eks_nat_ips
 }
-

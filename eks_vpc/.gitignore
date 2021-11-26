@@ -4,3 +4,4 @@
 .terraform.*
 local.auto.tfvars
 *DS_Store*
+*.txt
