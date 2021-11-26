@@ -8,7 +8,7 @@ terraform {
     organization = "shah-demo"
 
     workspaces {
-      name = "vpc-demo"
+      name = "test"
     }
   }
 }
