@@ -1,0 +1,15 @@
+
+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
+
+
+
+
+git config --global user.email "shahanawajpatel@gmail.com"
+git config --global user.name "shahanawaj"
+
+cat <<EOT > greetings.txt
+credentials "app.terraform.io" {
+    # valid user API token:
+    token = "ChWjxLhvyyluyg.atlasv1.z1721ZymhDbIqy1eZCNpzGTZYZ0RYCTta3ZqQyHn1kQGsprS0ArmI5sQn2q3SEFafdQ"
+  }
+EOT
